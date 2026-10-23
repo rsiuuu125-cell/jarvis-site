@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jarvis IA</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #07111f;
+      color: #65e6ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .carte {
+      padding: 35px;
+    }
+    .orbe {
+      width: 120px;
+      height: 120px;
+      margin: 30px auto;
+      border: 3px solid #65e6ff;
+      border-radius: 50%;
+      box-shadow: 0 0 35px #168bff;
+      animation: pulsation 2s infinite alternate;
+    }
+    @keyframes pulsation {
+      from { transform: scale(0.95); }
+      to {
+        transform: scale(1.12);
+        box-shadow: 0 0 60px #168bff;
+      }
+    }
+    p { color: #d6f8ff; }
+  </style>
+</head>
+<body>
+  <main class="carte">
+    <h1>JARVIS IA</h1>
+    <div class="orbe"></div>
+    <h2>Bonjour, je suis Jarvis.</h2>
+    <p>Bienvenue sur mon interface officielle.</p>
+    <p>Mon interface est en ligne !</p>
+  </main>
+</body>
+</html>
